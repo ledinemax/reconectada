@@ -1,0 +1,152 @@
+.homeContainer {
+    color: var(--dark-purple);
+    padding-bottom: 4rem;
+    background-color: var(--background);
+  }
+  
+  .containerHome {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--black);
+  }
+  
+  .mainDesc {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+  
+  .homeTitle {
+    color: #2a2133;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-block;
+    border-radius: 8px;
+    font-family: 'Titan One', cursive;
+  }
+  
+  .cardHome {
+    width: calc(33.33% - 25px);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color:  var(--medium-purple);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardIMG {
+    background-color:  var(--medium-purple);
+
+  }
+  
+  .cardTitle {
+    margin-bottom: 10px;
+    font-size: 23px;
+    background-color:  var(--medium-purple);
+  }
+  
+  
+  .cardText {
+    font-size: 16px;
+    font-weight: 500;
+    background-color:  var(--medium-purple);
+  }
+  
+  .cardMore {
+    padding-top: 2.3rem;
+    background-color: var(--background);
+    padding-bottom: 2rem;
+  }
+  
+  .cardDesc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .descImage {
+    padding-left: 3rem;
+  }
+  
+  .cardInfo {
+    text-align: center;
+    width: 60%;
+    padding: 3rem;
+    font-weight: 500;
+  }
+  
+  .cardInfo h1 {
+    width: 95%;
+    display: inline-block;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    font-family: 'Titan One', cursive;
+    color: #2a2133;
+  }
+  
+  .descText {
+    font-weight: 400;
+    margin-bottom: 1.3rem;
+  }
+  
+  .descBTN {
+    padding: 10px;
+    border-radius: 8px;
+    color: var(--off-white);
+    text-decoration: none;
+    background-color: #2a2133;
+  
+  }
+  
+  .descBTN:hover {
+   color: #2a2133;
+   background-color: #f8d98e;
+   transition: 1s;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .containerHome {
+      justify-content: center;
+    }
+  
+    .mainDesc {
+      margin: 0;
+    }
+  
+    .homeTitle {
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding: 0.5rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+  
+    .cardHome {
+      width: calc(100% - 15px); /* Ocupa toda a largura da tela */
+      margin-bottom: 1rem;
+    }
+  
+    .cardDesc {
+      flex-direction: column;
+    }
+  
+    .descImage {
+      padding-left: 0;
+      padding-bottom: 1.5rem;
+    }
+  
+    .cardInfo {
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    .cardInfo h1 {
+      font-size: 1.3rem;
+    }
+  }
