@@ -1,5 +1,6 @@
 import Header from '../components/Header'
 import styles from '../style/pages/home.module.css'
+import { Link } from 'react-router-dom'
 
 import homeIMG from '../assets/home.png'
 import plant from '../assets/bottom.png'
@@ -41,23 +42,26 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className={styles.cardMore}>
-        <div className={styles.cardDesc}>
-          <img className={styles.descImage} src={plant} alt="" />
-          <div className={styles.cardInfo}>
-            <h1>Empoderando Mulheres, Transformando Carreiras</h1>
-            <p className={styles.descText}>
-              Na ReConectada, acreditamos que cada mulher merece a
-              chance de prosperar em sua carreira. Nossa missão é fornecer
-              as ferramentas e o suporte necessários para que as mulheres
-              possam alcançar seus objetivos profissionais. Junte-se a nós e
-              descubra como podemos ajudar você a se reconectar com sua carreira.</p>
-            <a href="./sobre" role='button' className={styles.descBTN}>Saiba Mais</a>
+        <div className={styles.cardMore}>
+          <div className={styles.cardDesc}>
+            <img className={styles.descImage} src={plant} alt="" />
+            <div className={styles.cardInfo}>
+              <h1>Empoderando Mulheres, Transformando Carreiras</h1>
+              <p className={styles.descText}>
+                Na ReConectada, acreditamos que cada mulher merece a
+                chance de prosperar em sua carreira. Nossa missão é fornecer
+                as ferramentas e o suporte necessários para que as mulheres
+                possam alcançar seus objetivos profissionais. Junte-se a nós e
+                descubra como podemos ajudar você a se reconectar com sua carreira.</p>
+              <Link href="/sobre">
+                <a role='button' className={styles.descBTN}>Saiba Mais</a>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
+
+
     </>
   )
 }

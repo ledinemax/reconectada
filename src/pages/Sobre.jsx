@@ -18,30 +18,33 @@ const Sobre = () => {
         image={cover}
       />
       <div className={styles.mainContainer}>
-        <div className={styles.mainCard}>
           <div className={styles.values}>
             <h2 className={styles.valuesTitle}>VALORES QUE NOS GUIAM</h2>
             <ul className={styles.valuesList}>
-              <li className={styles.valuesText}><b>Empoderamento: </b>Acreditamos na capacidade
-                das mulheres de alcançar seus objetivos profissionais e pessoais.</li>
-              <li className={styles.valuesText}><b>Inclusão: </b> Promovemos um ambiente
-                de trabalho inclusivo e diverso, onde todas as mulheres se sintam valorizadas.</li>
-              <li className={styles.valuesText}><b>Capacitação: </b> Oferecemos programas
-                de formação e desenvolvimento para preparar as mulheres para o mercado de trabalho.</li>
-              <li className={styles.valuesText}><b>Parcerias: </b> Colaboramos com empresas, ONGs e comunidades locais para criar oportunidades de emprego significativas.</li>
+              <li className={styles.valuesText}><b>Empoderamento:</b><br/>
+              Acreditamos na capacidade das mulheres de alcançar 
+              seus objetivos profissionais e pessoais.</li>
+              <li className={styles.valuesText}><b>Inclusão:</b> <br/>
+              Promovemos um ambiente de trabalho inclusivo e diverso, 
+              onde todas as mulheres se sintam valorizadas.</li>
+              <li className={styles.valuesText}><b>Capacitação:</b><br/>
+              Oferecemos programas de formação e desenvolvimento 
+              para preparar as mulheres para o mercado de trabalho.</li>
+              <li className={styles.valuesText}><b>Parcerias:</b><br/>
+              Colaboramos com empresas, ONGs e comunidades locais
+               para criar oportunidades de emprego significativas.</li>
             </ul>
           </div>
-        </div>
         <div className={styles.containerFocus}>
           <h2 className={styles.titleFocus}>Nosso foco</h2>
           <ul className={styles.focusCard}>
-            <li className={styles.focusTextList}><b>Programas de Mentoria: </b>
+            <li className={styles.focusTextList}><b>Programas de Mentoria: </b> <br/>
               Conectamos mulheres com mentoras experientes para orientação e apoio.</li>
-            <li className={styles.focusTextList}><b>Capacitação Profissional: </b>
+            <li className={styles.focusTextList}><b>Capacitação Profissional: </b><br/>
               Oferecemos cursos e workshops para desenvolver habilidades técnicas e comportamentais.</li>
-            <li className={styles.focusTextList}><b>Parcerias com Empresas: </b>
+            <li className={styles.focusTextList}><b>Parcerias com Empresas: </b><br/>
               Trabalhamos com empresas para criar oportunidades de emprego e estágios.</li>
-            <li className={styles.focusTextList}><b>Redes de Apoio: </b>
+            <li className={styles.focusTextList}><b>Redes de Apoio: </b><br/>
               Criamos comunidades de apoio onde as mulheres podem compartilhar experiências e conhecimentos.</li>
 
           </ul>

@@ -1,29 +1,26 @@
-.mainCard {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-    background-color: var(--background);
-    padding-bottom: 2rem;
-    padding-top: 2.3rem;
-    color: var(--dark-purple);
-
-
+.mainContainer {
+    font-family: 'Titan One', cursive;
 }
 
 
 /* VALUE */
 .values {
-
-    padding-bottom: 1rem;
+    background-color: var(--off-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2.3rem;
 }
 
 .valuesTitle {
     color: var(--dark-purple);
     padding-bottom: 2rem;
     text-align: center;
-    font-family: 'Titan One', cursive;
     font-size: 2.2rem;
+    font-family: 'Titan One', cursive;
+    padding-top: 2.3rem;
+
 }
 
 .valuesList {
@@ -31,24 +28,16 @@
     display: inline-block;
     column-count: 2;
     color: var(--dark-purple);
+    
 }
 
 .valuesText {
-    width: 85%;
-    padding-left: .4rem;
-    padding-right: .4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 5px;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 1rem;
+    background-color: var(--medium-purple);
 }
-
-
-ul {
-    list-style: none;
-}
-
 
 
 /* FOCUS */
@@ -61,35 +50,36 @@ ul {
     text-align: center;
     padding-bottom: 2.3rem;
     padding-top: 2.3rem;
-    color: var(--dark-green);
+    color: var(--dark-purple);
 }
 
 .titleFocus {
     color: var(--dark-purple);
+    padding-bottom: 2rem;
     text-align: center;
     font-family: 'Titan One', cursive;
     font-size: 2.2rem;
 }
 
 .focusCard {
-    width: 70%;
+    width: 65%;
     display: inline-block;
     column-count: 2;
-    color: var(--light-gray);
-    border-radius: 10px;
+    color: var(--dark-purple);
 }
 
 .focusTextList {
-    padding-left: .4rem;
-    padding-right: .4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+    background-color: var(--medium-purple);
 }
 
 
-.focusTextList>b {
-    margin-top: 1rem;
+b {
+    margin-top: 0.1rem;
+    margin-bottom: 0.29rem;
     display: inline-block;
-    color: var(--light-green);
 }
   

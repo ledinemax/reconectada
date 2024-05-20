@@ -17,8 +17,7 @@ const Router = () => {
                 <Route path='/vagas' element={<Vagas />} />
                 <Route path='/contato' element={<Contato/>}/>
             </Routes>
-            <Footer content='Feito por 
-            . Todos os direitos reservados.'/>
+            <Footer content='Site desenvolvido para projeto de engajamento social.'/>
         </BrowserRouter>
     )
 }
